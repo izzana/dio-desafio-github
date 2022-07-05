@@ -1,0 +1,5 @@
+Blobs -> contem metadados do arquivo -> 
+Tree -> armazenam Blobs e commits, monta a estrutura de onde está os arquivos
+Commit -> objeto que junta tudo. Aponta pra uma árvore, pra um parente, pra o autos, mensagem e o timestamp
+
+O SHA1 desse commit é o hash de toda a informação

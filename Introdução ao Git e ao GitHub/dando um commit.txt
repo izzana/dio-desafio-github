@@ -1,0 +1,29 @@
+- git init -> criando um repositório no git
+- git add
+- git commit
+
+pra entrar na pasta
+$ cd livro-receitas/
+
+flag pra ver arquivos ocultos
+$ ls -a
+
+Pra na pasta do git
+$ cd .git/
+
+configurando a conta do github no git
+$ git config --global user.email "izzana.martins@gmail.com
+
+configurando o nome do git hub
+$ git config --global use.name izzana
+
+
+Adicionando arquivo
+$ git add *  ->adiciona todos os arquivos que estão na pasta ou que foram criados depois e ainda ñ foram adicionados no repositório
+
+o commit passamos com uma mensagem
+$ git commit -m "commit inicial"
+
+Movendo o arquivo strogonoff pra a pasta recem criada
+mv strogonoff.md ./receitas
+

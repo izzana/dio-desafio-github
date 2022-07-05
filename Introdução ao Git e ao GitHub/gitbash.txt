@@ -1,0 +1,8 @@
+No git bash buscando a chave que identifica o arquivo
+$ openssl sha1 texto.txt
+SHA1(texto.txt)= ceac821362fdd24f23d0afb6923e036c9083aae2
+
+Caso eu faça alguma mudança no arquivo e salve com essa mudança ele irá gerar outra chave
+
+
+

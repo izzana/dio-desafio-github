@@ -1,0 +1,36 @@
+Criando chave SSH
+                tipo de criptografia da chave
+$ ssh-keygen -t ed25519 -C izzana.martins@gmail.com
+depois posso ir dando enter
+
+Comandos para abrir a chave que criei
+izzan@LAPTOP-1AIJ32I3 MINGW64 ~/Desktop
+$ cd /c/Users/izzan/.ssh
+
+izzan@LAPTOP-1AIJ32I3 MINGW64 ~/.ssh
+$ ls
+//chave privada//chave pública 
+id_ed25519      id_ed25519.pub
+
+izzan@LAPTOP-1AIJ32I3 MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+
+A chave que nós expomos no git hub é a chave pública
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII2JeC5OtBDQ/WICM0igWZ6+yPO1LQi7nWYAjz7S7E9D izzana.martins@gmail.com ->chave pública gerada
+
+Inicializar ssd agent -> entidade que vai ficar encarregada de pegar as chaves, de lidar com elas
+$ eval $(ssh-agent -s)
+
+Adicionar chave ao agente Criando
+$ ssh-add id_ed25519 -> irei passar a chave privada
+
+Vamos clonar um repositório
+p link é o SSH
+$ git clone git@github.com:izzana/multiplication_table.git
+
+
+
+meu token do git hub
+
+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
+

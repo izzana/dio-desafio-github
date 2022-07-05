@@ -1,0 +1,55 @@
+dir(windows)/ls(linux) -> para mostrar todas as pastas no cmd/terminal
+
+cd/(windows e linux) -> vai entrar na unidade cd, depois dir/ls -> vai mostrar as pastas que estão na unidade C:
+
+cd Windows -> vai entrar dentro da pasta Windows
+depois dar um dir
+
+linux -> cd .. ->para retroceder um ponto na navegação
+
+cls(windows)/clear(linux) ou ctrl+l -> para limpar a terminal
+
+cd W + tab -> vai autocompletar o nome da pasta
+
+mkdir(windows) nomeDaPasta - criar uma pasta
+sudo su(pra dar permissão no linux antes de criar a pasta), depois mkdir nomeDaPasta
+
+Para criar um arquivo dentro da pasta workspace (windows e linux)
+cd/ls workspace
+echo hello > hello.txt -> fazendo isso irei criar um arquivo
+
+Para deletar os arquivos da pasta workspace
+primeiro saiu da pasta
+del workspace
+depois dá um S
+
+Para deletar os arquivos da pasta workspace (Windows)
+rmdir workspace /S /Q
+
+Para deletar os arquivos da pasta workspace (Linux)
+rm -rf workspace
+
+//enviando os arquivos pra o repositório
+git push origin master
+
+Adicionando o repositório do pc no git hub
+$ git remote add origin https://github.com/izzana/livro-receitas.git
+
+
+depois, pra listar a lista de repositórios
+$ git remote -v
+
+
+//enviando os arquivos pra o repositório, quando fazemos edições
+git push origin master
+
+para puxar o conteúdo com edições
+git pull origin master
+
+git add*
+git commit -m "alguma string"
+
+git push origin master
+
+clona
+git clone link_do_repositorio_que_quero_clonar
